@@ -1,0 +1,32 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/base/_variables.scss",
+		"../scss/base/_mixins.scss",
+		"../scss/base/_reset.scss",
+		"../scss/base/_base.scss",
+		"../scss/layout/_header.scss",
+		"../scss/layout/_footer.scss",
+		"../scss/modules/_typography.scss",
+		"../scss/modules/_buttons.scss",
+		"../scss/modules/_blocks.scss",
+		"../scss/modules/_components.scss"
+	],
+	"sourcesContent": [
+		"@import 'base/_variables.scss';\r\n@import 'base/_mixins.scss';\r\n@import 'base/_reset.scss';\r\n@import 'base/_base.scss';\r\n\r\n@import 'layout/_header.scss';\r\n@import 'layout/_footer.scss';\r\n\r\n@import 'modules/_typography.scss';\r\n@import 'modules/_buttons.scss';\r\n@import 'modules/_blocks.scss';\r\n@import 'modules/_components.scss';\r\n",
+		"",
+		"",
+		"",
+		"body {\r\n  background: #333;\r\n}\r\n\r\n.box {\r\n  background: white;\r\n  width: 200px;\r\n  height: 200px;\r\n  position: relative;\r\n  animation-name: myanimation;\r\n  animation-duration: 4s;\r\n}\r\n\r\n\r\n@keyframes myanimation {\r\n  0% {background-color: white; left:0px; top:0px; border-radius: 0 0 0 0;}\r\n  25% {background-color: red;left: 300px; top: 0px;border-radius: 50% 0 0 0;}\r\n  50% {background-color: green;left: 300px; top: 300px;border-radius: 50% 50% 0 0}\r\n  75% {background-color: blue;left: 0px; top: 300px;border-radius: 50% 50% 50% 0}\r\n  100% {background-color: white;left: 0px; top: 0px;border-radius: 50% 50% 50% 50%}\r\n}\r\n",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+	],
+	"mappings": ";AIAA,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,IAAK;CAClB;;;AAED,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,KAAM;EAClB,KAAK,EAAE,KAAM;EACb,MAAM,EAAE,KAAM;EACd,QAAQ,EAAE,QAAS;EACnB,cAAc,EAAE,WAAY;EAC5B,kBAAkB,EAAE,EAAG;CACxB;;AAGD,UAAU,CAAV,WAAU;EACR,AAAA,EAAE;IAAE,gBAAgB,EAAE,KAAM;IAAE,IAAI,EAAC,GAAI;IAAE,GAAG,EAAC,GAAI;IAAE,aAAa,EAAE,OAAQ;;EAC1E,AAAA,GAAG;IAAE,gBAAgB,EAAE,GAAI;IAAC,IAAI,EAAE,KAAM;IAAE,GAAG,EAAE,GAAI;IAAC,aAAa,EAAE,SAAU;;EAC7E,AAAA,GAAG;IAAE,gBAAgB,EAAE,KAAM;IAAC,IAAI,EAAE,KAAM;IAAE,GAAG,EAAE,KAAM;IAAC,aAAa,EAAE,WAAY;;EACnF,AAAA,GAAG;IAAE,gBAAgB,EAAE,IAAK;IAAC,IAAI,EAAE,GAAI;IAAE,GAAG,EAAE,KAAM;IAAC,aAAa,EAAE,aAAc;;EAClF,AAAA,IAAI;IAAE,gBAAgB,EAAE,KAAM;IAAC,IAAI,EAAE,GAAI;IAAE,GAAG,EAAE,GAAI;IAAC,aAAa,EAAE,eAAgB",
+	"names": []
+}
